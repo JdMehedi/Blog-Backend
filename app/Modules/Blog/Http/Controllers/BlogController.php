@@ -94,6 +94,7 @@ $blog['date'] = Carbon::parse($blog->created_at)->format('d-m-Y');
 
     public function update(Request $request)
     {
+        // using for testing purposs
         Log::info('Incoming request:', $request->all());
 //        dd($request->all());
 
